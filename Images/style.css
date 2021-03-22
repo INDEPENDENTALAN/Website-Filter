@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 96px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+    text-shadow: 8px 8px blue;
+}
+.I {
+    width: 10%;
+    margin: 16px;
+    filter: grayscale(100%);
+}
+.I:hover {
+    filter: grayscale(0%);
+}
+.II {
+    width: 10%;
+    margin: 16px;
+    filter: blur(5px);
+}
+.II:hover {
+    filter: blur(0px);
+}
+.III {
+    width: 10%;
+    margin: 16px;
+}
+.III:hover {
+    width: 15%;
+}
+.IV {
+    width: 10%;
+    margin: 16px;    
+}
+.IV:hover {
+    transform: rotate(180deg);
+}
+.V {
+    width: 10%;
+    margin: 16px;
+}
+.V:hover {
+    transform: translateY(96px);
+}
